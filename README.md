@@ -1,1 +1,2 @@
-# -CollectionView
+-(void)bindLongPressGestureToCollectionView:(UICollectionView*)collectionView dataSource:(NSMutableArray*)dataSource;
+传入对应的collectionview以及相应的数据源，注意这个数据源一定要是赋值后的否则会有bug
